@@ -14,6 +14,7 @@
 - (NSString *)description {
     return [DescriptionBuilder reflectDescription:self style:DescriptionStyleMultiLine];
 }
+```
 ### Installation with CocoaPods
 
 [CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like AFNetworking in your projects. See the ["Getting Started" guide for more information](https://github.com/AFNetworking/AFNetworking/wiki/Getting-Started-with-AFNetworking).
@@ -23,7 +24,6 @@
 ```ruby
 platform :ios, '7.0'
 pod 'DescriptionBuilder', '~> 0.0.2'
-```
 ```
 * Author [KISHIKAWA Katsumi](http://d.hatena.ne.jp/KishikawaKatsumi/)
 
