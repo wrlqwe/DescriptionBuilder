@@ -10,6 +10,7 @@
 		14F51B9610542E1D0076631A /* DescriptionBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F51B9510542E1D0076631A /* DescriptionBuilder.m */; };
 		14F51DBC105456E00076631A /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F51DBB105456E00076631A /* TestObject.m */; };
 		18024DC61B82CD5E002BE77F /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18024DC51B82CD5E002BE77F /* LICENSE.txt */; };
+		18024DCC1B82D577002BE77F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 18024DCB1B82D577002BE77F /* README.md */; };
 		1D3623260D0F684500981E51 /* DescriptionBuilderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DescriptionBuilderAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -25,6 +26,7 @@
 		14F51DBA105456E00076631A /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
 		14F51DBB105456E00076631A /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 		18024DC51B82CD5E002BE77F /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		18024DCB1B82D577002BE77F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* DescriptionBuilderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionBuilderAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* DescriptionBuilderAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionBuilderAppDelegate.m; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				18024DCB1B82D577002BE77F /* README.md */,
 				18024DC51B82CD5E002BE77F /* LICENSE.txt */,
 				97ADC7DD1B825D420081C96E /* DescriptionBuilder.podspec */,
 				32CA4F630368D1EE00C91783 /* DescriptionBuilder_Prefix.pch */,
@@ -186,6 +189,7 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* DescriptionBuilderAppDelegate.m in Sources */,
+				18024DCC1B82D577002BE77F /* README.md in Sources */,
 				14F51B9610542E1D0076631A /* DescriptionBuilder.m in Sources */,
 				14F51DBC105456E00076631A /* TestObject.m in Sources */,
 			);

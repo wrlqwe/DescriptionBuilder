@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'BSD',:file => 'LICENSE.txt'}
   s.author             = { "wrl" => "515045622@qq.com" }
   s.ios.deployment_target = "4.0"
-  s.source       = { :git => "https://github.com/wrlqwe/DescriptionBuilder.git", :tag => s.version, :commit => "007d250f9221f56c7b2286dc59ab9396c009ede5"}
+  s.source       = { :git => "https://github.com/wrlqwe/DescriptionBuilder.git", :tag => s.version, :commit => "c47dc1eaae63731a66586d002954fc9de51b924b"}
   s.source_files  = "Classes/lib/*.{h,m}"
   s.frameworks = "Foundation"
 
