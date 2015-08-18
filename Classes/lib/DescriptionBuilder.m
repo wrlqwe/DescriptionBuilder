@@ -78,15 +78,15 @@
     Ivar *ivars = class_copyIvarList(clazz, &outCount);
     
     if (style == DescriptionStyleMultiLine) {
-        [description appendFormat:@"<%s: 0x%x;\n", class_getName(clazz), [obj hash]];
+        [description appendFormat:@"<%s: 0x%lx;\n", class_getName(clazz), (unsigned long)[obj hash]];
     } else if (style == DescriptionStyleNoNames) {
-        [description appendFormat:@"<%s: 0x%x; ", class_getName(clazz), [obj hash]];
+        [description appendFormat:@"<%s: 0x%lx; ", class_getName(clazz), (unsigned long)[obj hash]];
     } else if (style == DescriptionStyleShortPrefix) {
         [description appendFormat:@"<%s; ", class_getName(clazz)];
     } else if (style == DescriptionStyleSimple) {
         [description appendString:@"<"];
     } else {
-        [description appendFormat:@"<%s: 0x%x; ", class_getName(clazz), [obj hash]];
+        [description appendFormat:@"<%s: 0x%lx; ", class_getName(clazz), (unsigned long)[obj hash]];
     }
     
     for (int i = 0; i < outCount; i++) {
@@ -139,7 +139,7 @@
                     }
                     [description appendFormat:@"%@", [objValue description]];
                 } else {
-                    [description appendFormat:@"<%s: 0x%x>", class_getName([objValue class]), [objValue hash]];
+                    [description appendFormat:@"<%s: 0x%lx>", class_getName([objValue class]), (unsigned long)[objValue hash]];
                 }
                 break;
             case '#':
