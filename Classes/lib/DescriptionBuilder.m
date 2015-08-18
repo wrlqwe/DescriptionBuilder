@@ -53,6 +53,9 @@
     return [DescriptionBuilder reflectDescription:obj style:style targetClass:[obj class] withSuperClass:NO];
 }
 + (NSString *)reflectDescription:(id)obj style:(DescriptionStyle)style targetClass:(Class)cls withSuperClass:(BOOL) superClassFlag{
+#ifndef DEBUG
+    return [obj description];
+#else
 	id objValue;
     Class classValue;
     SEL selValue;
@@ -253,6 +256,7 @@
     [description appendString:@">"];
     if (outCount > 0) { free(ivars); }
     return description;
+#endif
 }
 
 @end
