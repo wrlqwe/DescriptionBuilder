@@ -1,9 +1,9 @@
 
-#DescriptionBuilder (iPhone Utility Program)
+###DescriptionBuilder (iPhone Utility Program)
 
 ####DescriptionBuilder is helper class to make easier implementing NSObject description method, or dump all instance variables of any object. 
 
-* Usage
+###Usage
 ```
 - (NSString *)description {
     return [DescriptionBuilder reflectDescription:self];
@@ -17,7 +17,7 @@
 ```
 ### Installation with CocoaPods
 
-[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like AFNetworking in your projects. See the ["Getting Started" guide for more information](https://github.com/AFNetworking/AFNetworking/wiki/Getting-Started-with-AFNetworking).
+[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like DescriptionBuilder in your projects. See the ["Getting Started" guide for more information](https://github.com/AFNetworking/AFNetworking/wiki/Getting-Started-with-AFNetworking).
 
 #### Podfile
 
