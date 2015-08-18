@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		14F51B9610542E1D0076631A /* DescriptionBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F51B9510542E1D0076631A /* DescriptionBuilder.m */; };
 		14F51DBC105456E00076631A /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F51DBB105456E00076631A /* TestObject.m */; };
+		18024DC61B82CD5E002BE77F /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18024DC51B82CD5E002BE77F /* LICENSE.txt */; };
 		1D3623260D0F684500981E51 /* DescriptionBuilderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DescriptionBuilderAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -23,6 +24,7 @@
 		14F51B9510542E1D0076631A /* DescriptionBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionBuilder.m; sourceTree = "<group>"; };
 		14F51DBA105456E00076631A /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
 		14F51DBB105456E00076631A /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
+		18024DC51B82CD5E002BE77F /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* DescriptionBuilderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionBuilderAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* DescriptionBuilderAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionBuilderAppDelegate.m; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				18024DC51B82CD5E002BE77F /* LICENSE.txt */,
 				97ADC7DD1B825D420081C96E /* DescriptionBuilder.podspec */,
 				32CA4F630368D1EE00C91783 /* DescriptionBuilder_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
@@ -168,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18024DC61B82CD5E002BE77F /* LICENSE.txt in Resources */,
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				97ADC7DE1B825D420081C96E /* DescriptionBuilder.podspec in Resources */,
 			);
@@ -220,13 +224,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Katsumi Kishikawa";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "91C7C51D-9A84-4BF5-AE22-DB7854C29849";
 				SDKROOT = iphoneos3.0;
 			};
 			name = Debug;
@@ -235,13 +238,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Katsumi Kishikawa";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "91C7C51D-9A84-4BF5-AE22-DB7854C29849";
 				SDKROOT = iphoneos3.0;
 			};
 			name = Release;

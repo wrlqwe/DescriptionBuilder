@@ -5,19 +5,14 @@ Pod::Spec.new do |s|
   s.summary      = "Build description for an object with it's Ivars."
 
   s.description  = <<-DESC
-                   Build description for an object with it's Ivars.
-
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
+                   Based on https://github.com/kishikawakatsumi/DescriptionBuilder, a few bugs fixed.
                    DESC
 
   s.homepage     = "https://github.com/wrlqwe/DescriptionBuilder"
   s.license      = { :type => 'BSD' }
   s.author             = { "wrl" => "515045622@qq.com" }
   s.ios.deployment_target = "4.0"
-  s.source       = { :git => "https://github.com/wrlqwe/DescriptionBuilder.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/wrlqwe/DescriptionBuilder.git", :tag => s.version, :commit => "746c3167a5c3a2f5c008d73aaa80dca0092ee7ba"}
   s.source_files  = "Classes/lib/*.{h,m}"
   s.frameworks = "Foundation"
 
