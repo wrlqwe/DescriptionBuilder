@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/wrlqwe/DescriptionBuilder.git", :tag => s.version }
   s.source_files  = "Classes/lib/*.{h,m}"
   s.frameworks = "Foundation"
+
   s.requires_arc = false
 
 end
