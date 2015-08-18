@@ -68,7 +68,7 @@
 				14F51B9410542E1D0076631A /* DescriptionBuilder.h */,
 				14F51B9510542E1D0076631A /* DescriptionBuilder.m */,
 			);
-			name = lib;
+			path = lib;
 			sourceTree = "<group>";
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
